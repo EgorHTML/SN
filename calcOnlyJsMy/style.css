@@ -1,0 +1,44 @@
+.wrapper__culc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.culc__panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 250px;
+}
+
+.culc__panel .btn {
+  padding: 3px;
+}
+
+.culc__panel .btn button {
+  padding: 25px;
+}
+
+.culc__displey {
+  border: 1px #000 solid;
+  padding: 15px 75px;
+  margin-right: 50px;
+}
+
+.symbol {
+  padding: 3px;
+}
+
+.symbol button {
+  padding: 25px;
+}
+/*# sourceMappingURL=style.css.map */
